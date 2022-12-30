@@ -145,3 +145,40 @@ main section.description p {
     margin: 0vh 10vw 0vh auto;
     width: 40vw;
 }
+
+footer {
+    font-family: 'Santio';
+    background-color: #000;
+}
+
+footer img {
+    width: 100%;
+}
+footer section.donate {
+    margin: 20vh 10vw;
+}
+footer section.donate h2{
+    color: #fff;
+    font-size: 4rem;
+    width: 30vw;
+}
+footer section.donate a{
+    color: #fff;
+    border: thin solid #fff;
+    padding: 15px 20px;
+    margin: 5vh 0vw;
+    display: inline-block;
+}
+footer section.donate a:hover{
+    box-shadow: 5px 5px 2px #fff;
+
+}
+
+footer section.pp p {
+    color: #fff;
+    margin: auto; 
+    width: fit-content;  
+}
+footer section.pp p span.green{
+    color: #6bc1a3 ;
+}
