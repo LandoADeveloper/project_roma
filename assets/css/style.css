@@ -99,13 +99,39 @@ main section.info p span {
 
 main section.facts {
     font-family: 'Roboto';
-    margin: 0vh 10vw;
+    margin: 0vh 10vw 20vh;
 }
-main section.facts img {
+main section.facts article {
+    margin: 50vh 0vw;
+}
+main section.facts article img {
     height: 20vh;
     width: auto;
+    margin: 5vh 0vw;
+
 }
-main section.facts h2 {
-    color: #e7bc0e;
+main section.facts article h2 {
     font-size: 2rem;
+}
+main section.facts article h2.orange{
+    color: #e7bc0e;
+    
+}
+main section.facts article h2.purple {
+    color: #cb91b6;
+    
+}
+main section.facts article h2.green{
+    color: #6bc1a3;
+    
+}
+
+main section.facts article h2 span.giant {
+    font-size: 5rem;
+    display: block;
+}
+main section.facts article h2 span.underline {
+    color: #fff;
+    background-color: #000;
+
 }
