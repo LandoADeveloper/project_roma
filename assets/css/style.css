@@ -17,23 +17,95 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-header {
+body {
     background-image: url("../img/Lev3_1_Project_css-vertiefung_roma/cleo-topper.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
+    font-family: 'Roboto';
+
 }
 header nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 3vh;
+    height: 5vh;
 }
 header nav img {
-    height: 60%;
+    height: 3vh;
     width: auto;
     margin: 0vh 2vw;
+}
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 2vh 0vw;
+    margin-right: 5vw;
+
+}
+header nav a:hover {
+    border-bottom: 2px solid #e7bc0e;
+    
+}
+header h1 {
+    color: #efefef;
+    font-size: 3rem;
+    width: 20vw;
+    line-height: 1.5;
+    margin: 20vh 10vw;
+    
+}
+main {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+main section.scroll {
+    height: 100vh;
+}
+main section.scroll a {
+    margin: 0vh 10vw;
+    text-decoration: none;
+    font-family: 'Tangerine' ;
+    font-size: 2rem;
+    color: #e7bc0e;
+
+}
+
+main section.info {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+}
+main section.info p {
+    color: #6bc1a3;
+    font-family: 'Roboto';
+    font-size: 2rem;
+    width: 50vw;
+    line-height: 1.5;
+    margin-top: 5vh;
+}
+main section.info p span {
+    color: #fff;
+    background-color: #000;
+}
+
+main section.facts {
+    font-family: 'Roboto';
+    margin: 0vh 10vw;
+}
+main section.facts img {
+    height: 20vh;
+    width: auto;
+}
+main section.facts h2 {
+    color: #e7bc0e;
+    font-size: 2rem;
 }
