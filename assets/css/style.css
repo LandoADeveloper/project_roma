@@ -150,8 +150,14 @@ footer {
     font-family: 'Santio';
     background-color: #000;
 }
-
-footer img {
+footer div {
+    background-image: url("../img/Lev3_1_Project_css-vertiefung_roma/see.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+footer div img {
     width: 100%;
 }
 footer section.donate {
