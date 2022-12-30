@@ -26,6 +26,11 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+span.underline {
+    color: #fff;
+    background-color: #000;
+
+}
 header {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
@@ -92,10 +97,6 @@ main section.info p {
     line-height: 1.5;
     margin-top: 5vh;
 }
-main section.info p span {
-    color: #fff;
-    background-color: #000;
-}
 
 main section.facts {
     font-family: 'Roboto';
@@ -111,7 +112,7 @@ main section.facts article img {
 
 }
 main section.facts article h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 main section.facts article h2.orange{
     color: #e7bc0e;
@@ -127,11 +128,20 @@ main section.facts article h2.green{
 }
 
 main section.facts article h2 span.giant {
-    font-size: 5rem;
+    font-size: 6rem;
     display: block;
 }
-main section.facts article h2 span.underline {
-    color: #fff;
-    background-color: #000;
 
+
+main section.description {
+    font-family: 'Roboto';
+    padding-bottom: 20vh;
+
+}
+
+main section.description p {
+    font-size: 2.5rem;
+    color: #7eb8e1;
+    margin: 0vh 10vw 0vh auto;
+    width: 40vw;
 }
