@@ -1,3 +1,7 @@
+/*##################### 
+    Imports
+#######################*/
+
 @font-face {
     font-family: 'Roboto';
     src: url("../fonts/Roboto/Roboto-Medium.ttf");
@@ -13,6 +17,11 @@
     src: url("../fonts/Tangerine/Tangerine-Regular.ttf");
 }
 
+
+
+/*##################### 
+    Genereal Properties
+#######################*/
 * {
     margin: 0%;
     padding: 0%;
@@ -26,11 +35,19 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+
+/*##################### 
+    General Classes
+#######################*/
 span.underline {
     color: #fff;
     background-color: #000;
 
 }
+
+/*##################### 
+    Header
+#######################*/
 header {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
@@ -68,6 +85,9 @@ header h1 {
     margin: 20vh 10vw;
     
 }
+/*##################### 
+    Main
+#######################*/
 main {
     background-color: rgba(0, 0, 0, 0.5);
 
@@ -145,7 +165,9 @@ main section.description p {
     margin: 0vh 10vw 0vh auto;
     width: 40vw;
 }
-
+/*##################### 
+    Footer
+#######################*/
 footer {
     font-family: 'Santio';
     background-color: #000;
